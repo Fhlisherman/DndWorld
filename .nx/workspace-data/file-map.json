@@ -1,0 +1,306 @@
+{
+  "version": "6.0",
+  "nxVersion": "19.8.2",
+  "deps": {
+    "@nestjs/common": "^10.0.2",
+    "@nestjs/core": "^10.0.2",
+    "@nestjs/platform-express": "^10.0.2",
+    "axios": "^1.6.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^7.8.0",
+    "@eslint/js": "^9.8.0",
+    "@nestjs/schematics": "^10.0.1",
+    "@nestjs/testing": "^10.0.2",
+    "@nx/eslint": "19.8.2",
+    "@nx/eslint-plugin": "19.8.2",
+    "@nx/jest": "19.8.2",
+    "@nx/js": "19.8.2",
+    "@nx/nest": "^19.8.2",
+    "@nx/node": "19.8.2",
+    "@nx/react": "19.8.2",
+    "@nx/vite": "19.8.2",
+    "@nx/web": "19.8.2",
+    "@nx/webpack": "19.8.2",
+    "@nx/workspace": "19.8.2",
+    "@swc-node/register": "~1.9.1",
+    "@swc/cli": "~0.3.12",
+    "@swc/core": "~1.5.7",
+    "@swc/helpers": "~0.5.11",
+    "@testing-library/react": "15.0.6",
+    "@types/jest": "^29.5.12",
+    "@types/node": "18.16.9",
+    "@types/react": "18.3.1",
+    "@types/react-dom": "18.3.0",
+    "@vitejs/plugin-react": "^4.2.0",
+    "@vitest/ui": "^1.3.1",
+    "babel-jest": "^29.7.0",
+    "eslint": "^9.8.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-import": "2.30.0",
+    "eslint-plugin-jsx-a11y": "6.7.1",
+    "eslint-plugin-react": "7.35.0",
+    "eslint-plugin-react-hooks": "4.6.0",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "jest-environment-node": "^29.7.0",
+    "jsdom": "~22.1.0",
+    "nx": "19.8.2",
+    "prettier": "^2.6.2",
+    "ts-jest": "^29.1.0",
+    "ts-node": "10.9.1",
+    "tslib": "^2.3.0",
+    "typescript": "~5.5.2",
+    "typescript-eslint": "^8.0.0",
+    "vite": "^5.0.0",
+    "vitest": "^1.3.1",
+    "webpack-cli": "^5.1.4"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [
+    {
+      "name": "@nx/vite/plugin",
+      "options": {
+        "buildTargetName": "build",
+        "testTargetName": "test",
+        "serveTargetName": "serve",
+        "previewTargetName": "preview",
+        "serveStaticTargetName": "serve-static",
+        "typecheckTargetName": "typecheck"
+      }
+    },
+    {
+      "name": "@nx/eslint/plugin",
+      "options": {
+        "targetName": "lint"
+      }
+    },
+    {
+      "name": "@nx/jest/plugin",
+      "options": {
+        "targetName": "test"
+      }
+    },
+    {
+      "name": "@nx/webpack/plugin",
+      "options": {
+        "buildTargetName": "build",
+        "serveTargetName": "serve",
+        "previewTargetName": "preview"
+      }
+    }
+  ],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": ".editorconfig",
+        "hash": "5443105041930014821"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "4984634352791838667"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "14688272390704683536"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
+      },
+      {
+        "file": "README.md",
+        "hash": "16527752441635575346"
+      },
+      {
+        "file": "eslint.config.js",
+        "hash": "2478217381773231556"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "3494843969422251966"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
+      },
+      {
+        "file": "nx.json",
+        "hash": "11290076498062120530"
+      },
+      {
+        "file": "package.json",
+        "hash": "8182789353141417415"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "16936441711144470533"
+      }
+    ],
+    "projectFileMap": {
+      "backend-e2e": [
+        {
+          "file": "apps/backend-e2e/eslint.config.js",
+          "hash": "17472210594086834595"
+        },
+        {
+          "file": "apps/backend-e2e/jest.config.ts",
+          "hash": "12651683113746769452"
+        },
+        {
+          "file": "apps/backend-e2e/project.json",
+          "hash": "18395645934347403237"
+        },
+        {
+          "file": "apps/backend-e2e/src/backend/backend.spec.ts",
+          "hash": "110394728024017389"
+        },
+        {
+          "file": "apps/backend-e2e/src/support/global-setup.ts",
+          "hash": "2568409276037275290"
+        },
+        {
+          "file": "apps/backend-e2e/src/support/global-teardown.ts",
+          "hash": "5275447082211835490"
+        },
+        {
+          "file": "apps/backend-e2e/src/support/test-setup.ts",
+          "hash": "10984585515912236441"
+        },
+        {
+          "file": "apps/backend-e2e/tsconfig.json",
+          "hash": "15443990093475294480"
+        },
+        {
+          "file": "apps/backend-e2e/tsconfig.spec.json",
+          "hash": "14954872453723519891"
+        }
+      ],
+      "backend": [
+        {
+          "file": "apps/backend/eslint.config.js",
+          "hash": "17472210594086834595"
+        },
+        {
+          "file": "apps/backend/jest.config.ts",
+          "hash": "9008975264579166365"
+        },
+        {
+          "file": "apps/backend/project.json",
+          "hash": "3884688655519207765"
+        },
+        {
+          "file": "apps/backend/src/app/app.controller.spec.ts",
+          "hash": "9499997688052526633"
+        },
+        {
+          "file": "apps/backend/src/app/app.controller.ts",
+          "hash": "9005150069945785676"
+        },
+        {
+          "file": "apps/backend/src/app/app.module.ts",
+          "hash": "3163250445227373966"
+        },
+        {
+          "file": "apps/backend/src/app/app.service.spec.ts",
+          "hash": "8587461140686713758"
+        },
+        {
+          "file": "apps/backend/src/app/app.service.ts",
+          "hash": "9967902337593410053"
+        },
+        {
+          "file": "apps/backend/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/backend/src/main.ts",
+          "hash": "11205222914964382693"
+        },
+        {
+          "file": "apps/backend/tsconfig.app.json",
+          "hash": "3171572500325445971"
+        },
+        {
+          "file": "apps/backend/tsconfig.json",
+          "hash": "3490524966360018312"
+        },
+        {
+          "file": "apps/backend/tsconfig.spec.json",
+          "hash": "11550347367511341917"
+        },
+        {
+          "file": "apps/backend/webpack.config.js",
+          "hash": "13633534260012947124"
+        }
+      ],
+      "DndWorld": [
+        {
+          "file": "apps/DndWorld/eslint.config.js",
+          "hash": "18206053935892145363"
+        },
+        {
+          "file": "apps/DndWorld/index.html",
+          "hash": "17582247437599789919"
+        },
+        {
+          "file": "apps/DndWorld/jest.config.ts",
+          "hash": "6379945653139728211"
+        },
+        {
+          "file": "apps/DndWorld/project.json",
+          "hash": "13434972825988682544"
+        },
+        {
+          "file": "apps/DndWorld/public/favicon.ico",
+          "hash": "9303420814833116677"
+        },
+        {
+          "file": "apps/DndWorld/src/app/app.module.css",
+          "hash": "8887387885984320532"
+        },
+        {
+          "file": "apps/DndWorld/src/app/app.spec.tsx",
+          "hash": "537490818379163155"
+        },
+        {
+          "file": "apps/DndWorld/src/app/app.tsx",
+          "hash": "15616782202895490777"
+        },
+        {
+          "file": "apps/DndWorld/src/app/nx-welcome.tsx",
+          "hash": "2348102959109701629"
+        },
+        {
+          "file": "apps/DndWorld/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/DndWorld/src/main.tsx",
+          "hash": "4731961929376199421"
+        },
+        {
+          "file": "apps/DndWorld/src/styles.css",
+          "hash": "5195668842064076916"
+        },
+        {
+          "file": "apps/DndWorld/tsconfig.app.json",
+          "hash": "7232119452847825095"
+        },
+        {
+          "file": "apps/DndWorld/tsconfig.json",
+          "hash": "824604371006306276"
+        },
+        {
+          "file": "apps/DndWorld/tsconfig.spec.json",
+          "hash": "11378287594513225419"
+        },
+        {
+          "file": "apps/DndWorld/vite.config.ts",
+          "hash": "14792705735003429808"
+        }
+      ]
+    }
+  }
+}
