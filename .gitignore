@@ -1,0 +1,54 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+.pnpm-debug.log*
+.vscode/
+
+# Nx
+dist/
+out/
+tmp/
+.cache/
+nx-cache/
+coverage/
+build/
+# Nx log files
+.nx/daemon.log
+
+# React
+build/
+.DS_Store
+
+# VS Code
+.vscode/
+.history/
+*.code-workspace
+
+# TypeScript
+*.tsbuildinfo
+
+# NestJS
+dist/
+logs/
+*.log
+.env
+.env.*   # Ignore all environment files
+ormconfig.js
+
+# macOS files
+*.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Nx cache and IDE files
+.idea/
